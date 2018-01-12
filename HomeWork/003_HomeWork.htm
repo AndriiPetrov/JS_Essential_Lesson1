@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        // const p = 3.14;
+        var p = 3.141592653589793;
+        var r = +prompt("Insert radius", "10");
+        var h = +prompt("Insert height", "10") ;
+
+        var V = p * Math.pow(r, 2) * h;
+        // var V = p * r * r * h;
+
+        document.write("Cylinder capacity: " + V + "<br>");
+
+        var S = 2 * p * r *( r + h);
+
+        document.write("Cylinder area: " + S + "<br>");
+
+    </script>
+</head>
+<body>
+</body>
+</html>
